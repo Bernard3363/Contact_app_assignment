@@ -10,58 +10,58 @@ class HomeView extends StatelessWidget {
   final ScrollController _scrollController = ScrollController();
   final List<Map<String, dynamic>> data = [
     {
-      "name": "Cullen Ashley",
+      "name": "Teni Duapa",
       "phone": "866-6863",
       "email": "pulvinar@protonmail.net",
       "country": "Brazil",
       "region": "Istanbul"
     },
     {
-      "name": "Grady Olsen",
+      "name": "Sir Samuel Esssuman",
       "phone": "1-963-615-5146",
       "email": "ad.litora@yahoo.com",
       "country": "Turkey",
       "region": "Munster"
     },
     {
-      "name": "Brenda Duke",
+      "name": "Nigel Akye",
       "phone": "481-0724",
       "email": "ullamcorper.magna@aol.com",
       "country": "Austria",
       "region": "Pernambuco"
     },
     {
-      "name": "frelina May",
+      "name": "Judith",
       "phone": "0254761342",
       "email": "helinamvhim@gmail.com",
       "country": "Ghana",
       "region": "Tarkwa"
     },
     {
-      "name": "Priscilla Gyan",
+      "name": "Bridget",
       "phone": "glowman@gmail.com",
       "email": "hannamangyan@gmail.com",
       "country": "Ghana",
       "region": "Koforidua"
     },
     {
-      "name": "Authority",
+      "name": "Rosaria",
       "phone": "0267186523",
       "email": "authorityman@gmail.com",
       "country": "Ghana",
       "region": "Eastern Region"
     },
     {
-      "name": "Bernard Quayson",
-      "phone": "0244764312",
-      "email": "donec@aol.gh",
-      "country": "Guinea",
-      "region": "Kayseri"
+      "name": "Bernard Kwesi Quayson",
+      "phone": "0241663731",
+      "email": "bernardquayson18@gmail.com",
+      "country": "Germany",
+      "region": "Berlin"
     },
     {
-      "name": "Solomon Kwofie",
+      "name": "Claude Amadu",
       "phone": "0245671832",
-      "email": "not available ",
+      "email": "videogames@gmail.com",
       "country": "Ghana",
       "region": "Sekondi-western"
     },
@@ -73,7 +73,7 @@ class HomeView extends StatelessWidget {
       "region": "takoradi"
     },
     {
-      "name": "Sis May",
+      "name": "Daddy",
       "phone": "0567278179",
       "email": "terkkwa1@gmail.com",
       "country": "Sweden",
@@ -97,7 +97,7 @@ class HomeView extends StatelessWidget {
           Center(
             child: CircleAvatar(
               radius: 25,
-              backgroundImage:NetworkImage('https://media.istockphoto.com/photos/beautiful-africanamerican-newborn-little-boy-just-a-few-weeks-old-in-picture-id1292449394'),
+              backgroundImage:NetworkImage('https://images.unsplash.com/photo-1509479200622-4503f27f12ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGFub255bW91cyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60'),
             ),
           )
         ],
@@ -135,19 +135,19 @@ class HomeView extends StatelessWidget {
                     onTap: () {
                       Navigator.push(context,MaterialPageRoute(builder:  (context){
                         return ContactDetailsView(
-                          contact: Contact(name: 'Sylvester', 
-                          phone: '+233 55 700 1326', 
-                          email: 'sylvesteramoako73@gmail.com', 
+                          contact: Contact(name: 'Bernard', 
+                          phone: '+233 24 166 3731', 
+                          email: 'bernardquayson18@gmail.com', 
                          country: 'Ghana', 
                           region: 'Western Region'));
                       }));
                     },
                     leading:const CircleAvatar(
-                      backgroundImage: NetworkImage('https://media.istockphoto.com/photos/business-lifestyle-trader-in-glasses-sitting-at-cafe-monitoring-on-picture-id1160865762'),
+                      backgroundImage: NetworkImage('https://images.unsplash.com/photo-1503249023995-51b0f3778ccf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGFub255bW91cyUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60'),
                       radius: 25,
                     ),
                     title: const Text(
-                      "Sylvester Amoako Yegoe",
+                      "Bernard Kwesi Quayson",
                       style:
                           TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
                     ),
@@ -205,7 +205,7 @@ class HomeView extends StatelessWidget {
                         }));
                       },
                       leading: const CircleAvatar(
-                        backgroundImage: NetworkImage('https://media.istockphoto.com/photos/he-is-on-top-of-his-game-picture-id1154030325'),
+                        backgroundImage: NetworkImage('https://images.unsplash.com/photo-1540206395-68808572332f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60'),
                         radius: 25,
                       ),
                       title: Text(
