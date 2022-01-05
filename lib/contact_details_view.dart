@@ -33,7 +33,7 @@ class ContactDetailsView extends StatelessWidget {
         body: ListView(
           children: [
             const CircleAvatar(
-                radius: 70, backgroundImage: NetworkImage('https://media.istockphoto.com/photos/hacker-attacking-internet-picture-id540848970?b=1&k=20&m=540848970&s=170667a&w=0&h=5cPliD0gaPtKbVGudHZnjTDNw_ahWR_DgtzHgsF72IQ=')),
+                radius: 70, backgroundImage: NetworkImage('https://media.istockphoto.com/photos/compliance-rules-and-law-regulation-policy-concept-picture-id1288116976?b=1&k=20&m=1288116976&s=170667a&w=0&h=MUex0dlbYgHe5UeIaex20cVkz5gqGzNuSnDTcyo5LCY=')),
             const SizedBox(
               height: 25,
             ),
@@ -124,7 +124,7 @@ class ContactDetailsView extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 18, fontWeight: FontWeight.w600),
                     ),
-                    subtitle:  Text("OMSU"),
+                    subtitle:  Text("BELIEVE THE BOY"),
                      
                   ),
                 ],
@@ -148,7 +148,7 @@ class ContactDetailsView extends StatelessWidget {
                     style: TextStyle(
                       fontWeight: FontWeight.w600,
                     ),),
-                    trailing: Image.asset('assets/telegram.png'),
+                    trailing: NetworkImage('https://image.pngaaa.com/53/1461053-middle.png'),
                   ),
                   ListTile(
                     title: const Text("WhatsApp",
@@ -156,7 +156,7 @@ class ContactDetailsView extends StatelessWidget {
                       fontWeight: FontWeight.w600,
                     ),),
                     
-                    trailing: Image.asset('assets/whatsapp.png'),
+                    trailing: NetworkImage('http://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png'),
                   ),
                 ],
               ),
